@@ -1,0 +1,31 @@
+name: track-image-processing
+channels:
+- defaults
+- conda-forge
+- franklab
+- edeno
+dependencies:
+- python >=3.8,<3.11
+- numpy
+- scipy
+- jax
+- jaxlib=*=*cuda*
+- flax
+- optax
+- scikit-image
+- pandas
+- networkx
+- xarray
+- scikit-learn
+- patsy
+- tqdm
+- track_linearization
+- matplotlib
+- seaborn
+- ipython
+- black
+- pytest
+- pytest-cov
+- pip
+- pip:
+  - scikit-video
